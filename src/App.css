@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid{
+  background-color: black;
+}
+.logo-images{
+  width: 25%;
+  border-radius: 50%;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.nav-item{
+  margin: 20px;
+}
+.nav-link{
+  color: white;
+}
+.cart{
+  color: white;
+  font-size: 20px;
+}
+.card_detai{
+  width: 18rem;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-para{
+  font-size: 22px;
+}
+.empty-img{
+  width: 5rem;
+  padding: 10px;
+}
+.card{
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s;
+
+}
+.card-img-top {
+  height: 25rem;
+  width: 25rem;
+  padding: 10px;
+
+}
+h1{
+  padding: 20px;
+  text-align: center;
+}
+
+.card:hover{
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.090);
+  
+}
+.iteamsdetails{
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+}
+.items-img img{
+  width: 20rem;
+  border-radius: 5px;
+  padding: 10px;
+  height: 22rem;
+  
+}
+.CardsDetails-title{
+  padding: 10px;
+  text-align: center;
+}
+.details{
+  /* flex: 0.5; */
+  margin: 25px;
+}
+.symbol{
+  background-color: green;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.fa-trash{
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+.card_details{
+  width: 24rem;
+  padding: 10px;
+}
+.baskrt-img{
+  width: 5rem;
+  height: 5rem;
+}
+.baskrt-para{
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+.basket-td{
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footer{
+  background-color: black;
+}
+.footer {
+    background-color: black;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  -------------------------------------------    Media    --------------------------------- */
+
+
+
+@media (max-width:772px){
+
+  .iteamsdetails{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+@media (max-width:450px){
+  .smalltrash{
+      display: block;
+  }
+  .largetrash{
+      display:none;
+  }
+  .emptycart_img{
+      margin-right: 50px;
+  }
+  .smallclose{
+      display: none;
+  }
+
+  /* individual iteams details */
+ 
+  .items_img img{
+      width: 16rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .card-img-top {
+    height: 32rem;
+    padding: 10px;
+    width: auto;
+}
+}
+@media only screen and (max-width: 576px) {
+  .card-img-top {
+    height: auto;
+    padding: 10px;
+    width: auto;
+}
+}
+
+
+
